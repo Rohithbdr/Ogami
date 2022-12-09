@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-bg {
+    display: flex;
+    justify-content: space-around;
+    padding: .8rem;
+    background-color: #f5f5f5;
+
+}
+
+
+.header-1 div{
+    display: flex;
+    align-items: center;
+}
+
+.header-1 div p {
+    margin: 0;
+}
+
+.header-3{
+    display: flex;
+    align-items: center;
+}
+
+.header-3 p {
+    margin: 0;
+}
+
+.header-3 img {
+    height: 12px;
+}
+
+.header2-bg {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-4 p {
+    margin: 0;
+}
+
+.nav-1 {
+    display: flex;
+    justify-content: space-around;
+    padding-block: .5rem;
+}
+
+.nav-1 img {
+    height: 60px;
+}
+
+.nav1-child {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1-child div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav1-child p {
+    margin: 0;
+}
+
+.nav1-child2 {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav1-child2 p {
+    margin: 0;
+}
+
+.nav-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-block: .8rem;
+    max-width: 1300px;
+    margin-inline: auto;
+    position: relative;
+}
+
+.departments-bg {
+    background-color: #88c74a;
+    width: 280px;
+    color: white;
+    padding: 12px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.departments-bg p {
+    margin: 0;
+}
+
+.search-form {
+    width: 750px;
+    height: 55px;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+select {
+    width: 230px;
+    height: 80%;
+    border: none;
+    outline: none;
+    padding-inline: 1.2rem;
+    margin-right: .3rem;
+}
+
+#search {
+    width: 55%;
+    height: 55%;
+    padding-inline: 1rem;
+    border: none;
+    border-left: 1px solid;
+    outline: none;
+}
+
+#search-btn {
+    background-color: #88c74a;
+    color: white;
+    height: 55px;
+    width: 10%;
+    border: none;
+    position: absolute;
+    right: 2.3%;
+    cursor: pointer;
+}
